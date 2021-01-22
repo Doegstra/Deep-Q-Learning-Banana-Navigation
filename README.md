@@ -2,8 +2,8 @@
 Deep Q-Learning (DQN) applied to Banana Navigation using Unity Machine Learning Agents (ML-Agents). 
 
 Untrained agent
-[//]: # ![agent behaving randomly](https://github.com/Doegstra/Deep-Q-Learning-Banana-Navigation/blob/main/img/banana_random.gif | width=250)
-<img src="https://github.com/Doegstra/Deep-Q-Learning-Banana-Navigation/blob/main/img/banana_random.gif" width="250"/>
+
+<img src="https://github.com/Doegstra/Deep-Q-Learning-Banana-Navigation/blob/main/img/banana_random.gif" width="400"/>
 
 ### Project details
 TODO: The README describes the the project environment details (i.e., the state and action spaces, and when the environment is considered solved).
