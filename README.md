@@ -1,11 +1,10 @@
 # Deep-Q-Learning-Banana-Navigation
 Deep Q-Learning applied to Banana Navigation using Unity Machine Learning Agents (ML-Agents). 
 
-Untrained agent
-
+Untrained agent <br>
 <img src="https://github.com/Doegstra/Deep-Q-Learning-Banana-Navigation/blob/main/img/banana_random.gif" width="400"/>
 
-Trained agent
+Trained agent <br>
 <img src="https://github.com/Doegstra/Deep-Q-Learning-Banana-Navigation/blob/main/img/banana_trained.gif" width="400"/>
 
 ### Project details
