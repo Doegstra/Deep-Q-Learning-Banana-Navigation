@@ -5,6 +5,9 @@ Untrained agent
 
 <img src="https://github.com/Doegstra/Deep-Q-Learning-Banana-Navigation/blob/main/img/banana_random.gif" width="400"/>
 
+Trained agent
+<img src="https://github.com/Doegstra/Deep-Q-Learning-Banana-Navigation/blob/main/img/banana_trained.gif" width="400"/>
+
 ### Project details
 #### State and Action Spaces
 
