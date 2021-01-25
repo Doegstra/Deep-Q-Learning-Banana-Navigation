@@ -9,7 +9,7 @@ It also describes the model architectures for any neural networks.
 A plot of rewards per episode is included to illustrate that the agent is able to receive an average reward (over 100 episodes) of at least +13.
 The submission reports the number of episodes needed to solve the environment.
 
-<img src="https://github.com/Doegstra/Deep-Q-Learning-Banana-Navigation/blob/main/img/rewards_over_time.png"/>
+<img src="https://github.com/Doegstra/Deep-Q-Learning-Banana-Navigation/blob/main/img/rewards_over_time_dark.png"/>
 
  
 ### Ideas for Future Work
