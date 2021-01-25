@@ -11,6 +11,6 @@ The submission reports the number of episodes needed to solve the environment.
 
 <img src="https://github.com/Doegstra/Deep-Q-Learning-Banana-Navigation/blob/main/img/rewards_over_time.png"/>
 
-
+ 
 ### Ideas for Future Work
 The submission has concrete future ideas for improving the agent's performance.
