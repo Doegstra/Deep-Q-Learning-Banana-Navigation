@@ -24,7 +24,7 @@ QNetwork(
 ```
 
 #### Hyperparameters
-The following hyperparameters define how the agent learned:
+The following hyperparameters define how the agent learns:
 - replay buffer size: `1e6`
 - minibatch size: `64`
 - discount factor: `0.995`
