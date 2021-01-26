@@ -31,6 +31,7 @@ The following hyperparameters define how the agent learns:
 - soft update parameter: `1e-3`
 - learning rate: `5e-4`
 - Steps till next update of NN: `16`
+- Dropout probability: `0.05`
 
 For the training, the following parameters were used:
 - maximum steps per episode: `2000`
