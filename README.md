@@ -33,7 +33,7 @@ To train the agent, use `NavigationTraining.ipynb`.
 The agent itself is defined in `dqn_agent.py` and the neural network used to learn the actions is defined in `model.py`.
 A detailed description of the interplay between the above mentioned files is given in `NavigationTraining.ipynb`.
 
-The file `report.md` contains a summary of the methodology, hyperparameters and results of training.
+The file `Report.md` contains a summary of the methodology, hyperparameters and results of training.
 
 To watch a trained and untrained agent in comparision, use `NavigationWatchAgents.ipynb`.
 The pretrained network is stored in `checkpoint.pth`.
