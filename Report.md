@@ -13,11 +13,10 @@ The output layer corresponds to the actions that the agent can take.
 ```Python
 QNetwork(
   (hidden_layers): ModuleList(
-    (0): Linear(in_features=37, out_features=512, bias=True)
-    (1): Linear(in_features=512, out_features=256, bias=True)
-    (2): Linear(in_features=256, out_features=256, bias=True)
+    (0): Linear(in_features=37, out_features=64, bias=True)
+    (1): Linear(in_features=64, out_features=64, bias=True)
   )
-  (output): Linear(in_features=256, out_features=4, bias=True)
+  (output): Linear(in_features=64, out_features=4, bias=True)
 )
 ```
 
