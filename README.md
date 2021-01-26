@@ -45,4 +45,4 @@ For this project, you will not need to install Unity - this is because Udacity h
 - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
 - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
 
-Then, place the file your project folder, and unzip the file.
+Then, place the file in your project folder, and unzip the file.
