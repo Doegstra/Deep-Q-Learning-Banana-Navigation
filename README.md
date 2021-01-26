@@ -1,5 +1,5 @@
 # Deep Q-Learning Banana-Navigation
-Deep Q-Learning applied to Banana Navigation using Unity Machine Learning Agents (ML-Agents). 
+In this repository, Deep Q-Learning is applied to Banana Navigation using Unity Machine Learning Agents (ML-Agents). 
 
 After successful training, the agent will behave similar to the one below:
 
