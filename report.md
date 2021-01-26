@@ -40,8 +40,8 @@ For the training, the following parameters were used:
 
 ### Plot of rewards
 The following scores were reached during training.
-The goal was to reach an average score of 13 over 100 consecutive episodes. 
-This goal was reached after 975 episodes of training.
+The goal was to reach an average score of `13` over `100` consecutive episodes. 
+This goal was reached after `975` episodes of training.
 
 <img src="https://github.com/Doegstra/Deep-Q-Learning-Banana-Navigation/blob/main/img/rewards_over_time_rolling_dark_v2.png"/>
 
