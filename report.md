@@ -43,7 +43,7 @@ The following scores were reached during training.
 The goal was to reach an average score of 13 over 100 consecutive episodes. 
 This goal was reached after 975 episodes of training.
 
-<img src="rewards_over_time_rolling_dark_v2.png"/>
+<img src="https://github.com/Doegstra/Deep-Q-Learning-Banana-Navigation/blob/main/img/rewards_over_time_rolling_dark_v2.png"/>
 
 ```
 Episode 100	Average Score: 0.32
