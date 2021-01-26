@@ -1,5 +1,5 @@
 ## Report 
----
+--
 
 ### Learning algorithm
 The algorithm is based on Deep Q-Learning as presented in the seminal paper by [Mnih et al. (2015)](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf).
