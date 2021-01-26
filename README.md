@@ -23,7 +23,7 @@ The task is episodic, and in order to solve the environment, the agent must get 
 
 ## Getting started
 
-`Python 3.6` was used to solve the problem at hand. 
+`Python 3.6` needs to be installed. 
 Make sure [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md), [NumPy](http://www.numpy.org/) and [Torch](https://pytorch.org/docs/stable/torch.html) are installed.
 The complete list of packages used in this project is given in the `requirements.txt`.
 
