@@ -25,18 +25,18 @@ QNetwork(
 
 #### Hyperparameters
 The following hyperparameters define how the agent learned:
-- replay buffer size: $10^6$
-- minibatch size: $64$
-- discount factor: $0.995$
-- soft update parameter: $10^{-3}$
-- learning rate: $5\cdot10^{-4}$
-- Steps till next update of NN: $16$
+- replay buffer size: `1e6`
+- minibatch size: `64`
+- discount factor: `0.995`
+- soft update parameter: `1e-3`
+- learning rate: `5e-4`
+- Steps till next update of NN: `16`
 
 For the training, the following parameters were used:
-- maximum steps per episode: $2\,000$
-- epsilon start: $1.0$
-- epsilon end: $0.01$
-- epsilon decay: $0.995$
+- maximum steps per episode: `2000`
+- epsilon start: `1.0`
+- epsilon end: `0.01`
+- epsilon decay: `0.995`
 
 ### Plot of rewards
 The following scores were reached during training.
