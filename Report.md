@@ -7,7 +7,7 @@ The algorithm is based on Deep Q-Learning as presented in the seminal paper by [
 #### Neural network architecture
 The Neural Network (NN) consists of an input layer, three hidden layers, and an output layer. 
 The input layer takes a vector representing properties of the observed state. 
-The hidden layers are fully connected layers with the following sizes `[512, 256, 256]`.
+The hidden layers are fully connected layers with ReLU activation and with the following sizes `[512, 256, 256]`.
 The output layer corresponds to the actions that the agent can take. 
 Dropout is applied to each hidden layer (see [Hinton et al. 2012](https://arxiv.org/abs/1207.0580)).
 
