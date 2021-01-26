@@ -5,7 +5,7 @@ import torch.nn.functional as F
 class QNetwork(nn.Module):
     """Actor (Policy) Model."""
 
-    def __init__(self, state_size, action_size, seed, hidden_sizes=[512, 256, 256], drop_p=0.05):
+    def __init__(self, state_size, action_size, seed, hidden_sizes=[64, 64]):
         """Initialize parameters and build model.
         Params
         ======
@@ -13,7 +13,6 @@ class QNetwork(nn.Module):
             action_size (int): Dimension of each action
             seed (int): Random seed
             hidden_sizes (int)[]: list of integers, the sizes of the hidden layers
-            drop_p (float): dropout probability
         """
         super(QNetwork, self).__init__()
         self.seed = torch.manual_seed(seed)
@@ -25,12 +24,9 @@ class QNetwork(nn.Module):
         self.hidden_layers.extend([nn.Linear(h1, h2) for h1, h2 in layer_sizes])
         
         self.output = nn.Linear(hidden_sizes[-1], action_size)
-        
-        self.dropout = nn.Dropout(p=drop_p)
 
     def forward(self, state):
         """Build a network that maps state -> action values."""
         for each in self.hidden_layers:
             state = F.relu(each(state))
-            state = self.dropout(state)
         return self.output(state)
